@@ -1,0 +1,106 @@
+body {
+    background-color: #22272e;
+}
+
+header {
+    background-color: #22272e;
+    padding-top: 0;
+    align-items: center;
+}
+
+.menu{
+    background-color: #2d333b;
+    padding-top: 10px;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px 20px 20px;
+    justify-content: space-between;
+}
+.menu ul li{}
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    text-transform: uppercase;
+}
+
+.menu ul li a:hover {
+    color: #3da47a;
+}
+
+#navcentral {
+    padding-left: 100px;
+}
+
+.profileimg {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#profileimg {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 8px solid #3da47a;
+}
+
+.welcometext {
+    text-align: center;
+    color: #3da47a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 5px;
+}
+.welcometext h1 {
+    font-size: xx-large;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+section {
+    padding: 0 15% 0 15%;
+}
+section h2 {
+    text-align: center;
+    padding: 20px;
+    color: #3da47a;
+    background-color: #2d333b;
+    border: 2px solid #bcbdc0;
+    border-radius: 8px;
+}
+
+section p {
+    background-color: #273849;
+    color: #fff;
+    padding: 5px 20% 5px 20%;
+    border: 2px solid #bcbdc0;
+    border-radius: 8px;
+}
+
+section ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: #273849;
+    padding: 5px 20% 5px 20%;
+    border: 2px solid #bcbdc0;
+    border-radius: 8px;
+}
+section ul li {
+    color:#fff;
+    display: flex;
+    justify-content:space-around;
+}
+
+footer {
+    background-color: #22272e;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+}

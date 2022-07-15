@@ -1,0 +1,115 @@
+
+.navbar {
+    background-color: #2d333b;
+    height: 40px;
+    padding-top: 10px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li a{
+    color: #fefdfd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px 20px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar ul li a:hover {
+    color: #3da47a;
+}
+
+body {
+    background-color: #22272e;
+}
+
+.loginbox{
+    padding-top: 15px;
+    display:inline-flex;
+    justify-content: space-between;
+    padding-left: 25%;
+    padding-right: 25%;
+    
+}
+.imgloginbox img{
+    width: 273px;
+    height: 553px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 3px ridge #bcbdc0;
+    border-right: none;
+}
+
+.logindatabox {
+    text-align: center;
+    background-color: #273849;
+    height: 553px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 3px ridge #bcbdc0;
+    border-left: none;
+}
+
+.logindatabox h2 {
+    padding-top: 120px;
+    padding-bottom: 30px;
+    color: #3da47a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:xx-large;
+}
+
+.formslogin {
+    color: #3da47a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+.formslogin label {
+    font-size:larger;
+}
+
+.formslogin input {
+    border: 3px inside #bcbdc0;
+    border-radius: 4px;
+}
+
+.sendbutton {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #3da47a;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    padding-top: 15px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .sendbutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .sendbutton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .sendbutton:hover span {
+    padding-right: 25px;
+  }
+  
+  .sendbutton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
