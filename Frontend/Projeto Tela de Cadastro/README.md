@@ -1,6 +1,6 @@
 # Project2
 
-A ideia desse projeto é criar uma página de cadastro simples, projeto seguindo a ideia do repositório de fazer sem ajudas externas nas produções dos projetos. Segue o resultado do projeto: <br>
+A ideia desse projeto é criar uma página de cadastro simples. Segue o resultado do projeto: <br>
 <img src="https://user-images.githubusercontent.com/97403639/161594661-c99f5cb8-3727-422f-8ea3-c424b18b3f9c.png" width="500px">
 <img src="https://user-images.githubusercontent.com/97403639/161594665-0dccb47f-39b0-4cd4-bbdb-034cd7970902.png" width="500px">
 

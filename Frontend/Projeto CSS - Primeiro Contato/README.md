@@ -1,6 +1,6 @@
 # Project1
 
-Este é meu primeiro projeto web. A ideia do projeto é fazer uma página web simples, falando um pouco sobre mim, sem uso de nenhuma auxílio para a produção do mesmo. Segue o resultado final do projeto: <br>
+Este é meu primeiro projeto web. A ideia do projeto é fazer uma página web simples, falando um pouco sobre mim. Segue o resultado final do projeto: <br>
 <img src="https://user-images.githubusercontent.com/97403639/161593915-216e181f-f3a0-4bea-a032-614e7413b3e9.png" width="500px">
 <img src="https://user-images.githubusercontent.com/97403639/161593923-b5757351-bb07-42f9-9ba0-a5504b3fa6d0.png" width="500px">
 
