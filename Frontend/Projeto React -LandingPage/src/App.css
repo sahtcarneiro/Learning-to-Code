@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.center {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  padding: 40px 0;
+  width: 100%;
+  background-color: blueviolet;
+  background-image: url("https://cursos.dankicode.com/app/Views/public/images/home/banner-home.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu h3 {
+  color:white;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 3px 8px;
+}
+
+.form {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 40px;
+}
+
+.form h2, p {
+  color: white;
+  font-weight: normal;
+}
+
+.itemsForm {
+  margin: 0;
+  max-width: 540px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.form input[type=text] {
+  width: 30%;
+  height: 30px;
+  margin: 8px 10px;
+  padding-left: 5px;
+}
+
+.itemsForm input[type=submit]{
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: 0;
+  font-size: 19px;
+}
+
+.conteudoSingle {
+  width: 45%;
+  padding: 8px 30px;
+  margin-top: 40px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.conteudoSingle h3 {
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.conteudoSingle p {
+  margin: 5px;
+  color: black;
+}
+
+@media screen and (max-widht: 768px) {
+  .itemsForm input [type=text] {
+    width: 100%;
+  }
+  .conteudoSingle {
+    width: 100%;
+  }
+}
